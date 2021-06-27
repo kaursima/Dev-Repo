@@ -16,12 +16,14 @@ import Repos from './Repos';
 class ProfileHeader extends React.Component {
     constructor(props) {
         super(props);
+        console.log(props)
         this.state = { developerId : props.developerId.match.params.developerId};
       };
     
       componentDidMount()
       {
-          this.fetchUserDetails();          
+          
+          this.fetchUserDetails();
       }
 
       fetchUserDetails()

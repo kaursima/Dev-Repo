@@ -27,7 +27,7 @@ class AddNew extends React.Component {
         const id = this.state;
         if(id)
         {
-            const request = new Request('/developers', {
+            const request = new Request('/api/developers', {
                 method: 'POST',
                 headers: new Headers({
                     'Content-Type': 'application/json'

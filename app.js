@@ -4,7 +4,7 @@ const app = express();
 const developers = require('./developers/Developers');
 const port = process.env.PORT || 4000;
 
-app.use('/developers', developers);
+app.use('/api/developers', developers);
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('devrepoclient/build'));

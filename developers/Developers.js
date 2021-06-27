@@ -113,5 +113,4 @@ router.post('/', (req, res) => {
         res.send(developersInfo[userId]);
     });
 });
- 
 module.exports = router;

@@ -47,7 +47,6 @@ class Developers extends React.Component {
                  for(const key in data)
                 {         
                     prev.push(data[key]);
-                    
                 }
                 this.setState({developersInfo : prev});
             })
