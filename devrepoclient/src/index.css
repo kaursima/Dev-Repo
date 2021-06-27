@@ -1,0 +1,422 @@
+
+.header {
+  left: 0px;
+  top: 0px;
+  background-color: #2F2E41;
+  display: flex;
+  text-decoration: white;
+}
+
+.header-text
+{
+  width: 50%;
+  left: 100px;
+  top: 200px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  color: #FFFFFF;
+  margin: auto 100px;
+}
+
+.heading
+{
+  text-align: center;
+  padding: 2rem;
+  height: 76px;
+  left: 385px;
+  top: 657px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 76px;
+  color: #3F3D56;
+}
+
+.divider
+{
+  background: #D0CDE1;
+}
+.search
+{
+  width: 709px;
+  height: 62px;
+  left: 328px;
+  top: 845px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.vector 
+{
+  height: 50px;
+  margin-top: 7px;
+  padding: 0.5rem;
+
+}
+
+.search2
+{
+  width: 821px;
+  height: 82px;
+  left: 310px;
+  top: 835px;
+  margin: auto;
+  background: #D0CDE1;
+  border-radius: 15px;
+}
+
+.avatar
+{
+  display: flex;
+  padding: 1rem;
+
+}
+
+.footer-text
+{
+  width: 695px;
+  height: 61px;
+  left: 375px;
+  top: 1939px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3F3D56;
+}
+
+.footer-message
+{
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  padding-bottom: 2rem;
+  color: #3F3D56;
+}
+
+.profile-container
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 2rem;
+}
+
+.avatar-component
+{
+  padding: 2rem;
+  display: flex;
+  line-height: 100px;
+}
+
+.button{
+  display: flex;
+    justify-content: center;
+}
+
+.add-new-developer-button
+{
+  width: 456px;
+  height: 82px;
+  color: white;
+  border: none;
+  font-size: large;
+  background: #7C639F;
+  border-radius: 15px;
+}
+.img-logo
+{
+  padding-right: 1rem;
+}
+
+.avatarPicture
+{
+  border-radius: 50%;
+  height: 100px;
+}
+
+.profile-header
+{
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  justify-content: space-between;
+  top: 0px;
+  background: #2F2E41;
+  display: flex;
+}
+.profile-header-1
+{
+  font-size: 24px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+.profile-header-2
+{
+  
+
+  font-size: 24px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.repo-footer
+{
+  width: 1440px;
+  height: 96px;
+  left: 3px;
+  top: 2118px;
+  background: #3F3D56;
+}
+
+.footer-text
+{
+  margin: auto;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.avatar-image
+{
+  border-radius: 50%;
+  box-shadow: 1px 5px 8px 2px rgb(38 38 38 / 20%);
+  height: 333.33px;
+  width: 333.33px;
+}
+
+
+
+.avatarLink
+{
+  color: #a48d63;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.profile-intro
+{
+  display: flex;
+  background: #E5E5E5;
+}
+
+.profile-image
+{
+  padding: 4rem;
+}
+
+.profile-details
+{
+  padding: 4rem;
+  color: #3F3D56;
+  display: grid;
+}
+
+.profile-name
+{
+  width: 368px;
+  height: 57px;
+  left: 492px;
+  top: 209px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+}
+.profile-bio
+{
+  width: 732px;
+  height: 66px;
+  left: 492px;
+  top: 296px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.profile-links
+{
+  display: flex;
+  padding: 1rem;
+}
+
+.profile-logo
+{
+  padding-top: 2rem;
+}
+
+.profile-location
+{
+  display: flex;
+}
+
+.location-data
+{
+  padding: 1rem;
+}
+.repos-heading
+{
+  text-align: center;
+  height: 76px;
+  left: 477px;
+  top: 659px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 76px;
+  color: #3F3D56;
+}
+
+.repo-name
+{
+  color: #0768FA;
+  width: 241px;
+  height: 49px;
+  padding-right: 1rem;
+  font-size: larger;
+}
+
+*
+{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.date
+{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  color: #3F3D56;
+  opacity: 0.4;
+  padding-left: 1rem;
+}
+
+.logo{
+  padding-left: 0.5rem;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.repos-component
+{
+  margin: 0 72px;
+  padding: 1rem;
+}
+
+.inner-modal
+{
+  background: #FFFFFF;
+  width: 700px;
+}
+
+
+.modal-footer
+{
+  padding: 2rem;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.id-input
+{
+margin-left: 20px;
+width: 596px;
+height: 50px;
+left: 280px;
+top: 571px;
+
+background: #FFFFFF;
+border: 1px solid #D0CDE1;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.submit-button
+{
+  width: 175px;
+  height: 50px;
+  left: 1002px;
+  top: 1434px;
+  
+  background: #7C639F;
+  border-radius: 15px;
+  color: white;
+  align-items: right;
+}
+
+.fields-info
+{
+  margin-left: 20px;
+}
+.search2{
+  display: flex;
+}
+
+
+.cancel-button
+{
+    margin-right: 10%;
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+a{
+  cursor: pointer;
+}
+
+
+
+.modal-header
+{
+  width: 318px;
+  height: 44px;
+  left: 250px;
+  top: 375px;
+  padding: 1rem;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.modal
+{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  z-index: 99999;
+}
