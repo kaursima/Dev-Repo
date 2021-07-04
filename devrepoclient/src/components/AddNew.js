@@ -34,8 +34,11 @@ class AddNew extends React.Component {
                 }),
                 body: JSON.stringify(this.state)
             });
-            fetch(request).then(response => response.json()).then(() => alert("User has been succesfully added! You can now close the prompt."));
-        }
+            fetch(request).then(response => response.json()).then(() => {
+                alert("User has been succesfully added!");
+                window.location.reload(false);
+            });
+        }        
 
       }
     handleSubmit = (event) => {
@@ -47,9 +50,10 @@ class AddNew extends React.Component {
         {
             alert("Github ID is required to proceed! ");
         }
-
+        this.props.onCancel();
         event.preventDefault();
     }
+
 
     handleChange = (event , id) => {
         switch(id)
@@ -103,7 +107,6 @@ class AddNew extends React.Component {
             </label><br/>
             <hr class="divider2"/>
             <div class="modal-footer" >
-            
             <input type="button" value="Cancel" class="cancel-button" onClick={this.props.onCancel} />
             <input type="submit" class="submit-button" value="Submit" /></div>
             </form></div>

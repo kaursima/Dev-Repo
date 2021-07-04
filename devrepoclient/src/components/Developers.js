@@ -22,16 +22,16 @@ class Developers extends React.Component {
         else{
           fetch('/api/developers').then(response => response.json()).then(data => 
             {
-              let prev = this.state.developersInfo;
+              let prev = [];
               const input = event.target.value;
-                for(const key in data)
-                {               
-                  if(String(data[key].login).includes(String(input)) && String(input) !== "")
-                  {
-                    prev = [];
+              for(const key in data)
+              {
+                if(String(data[key].login).toLowerCase().includes(String(input).toLowerCase()))
+                {
                     prev.push(data[key]);
-                  }
                 }
+              }
+              console.log(prev)
               this.setState({developersInfo : prev});
             })
         }

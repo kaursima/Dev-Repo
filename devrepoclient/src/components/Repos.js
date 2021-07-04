@@ -6,13 +6,11 @@ import "../index.css";
 class Repos extends React.Component {
     constructor(props) {
         super(props);
-        //console.log(props.developerId)
         this.state = { developerId : props.developerId, repositories : []};
       };
     componentDidMount()
     {
         this.fetchAllRepos();
-        //console.log(props)
     }
 
     fetchAllRepos()
