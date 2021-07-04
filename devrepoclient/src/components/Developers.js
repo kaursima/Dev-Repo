@@ -20,7 +20,7 @@ class Developers extends React.Component {
           this.fetchAllDevelopers();
         }
         else{
-          fetch('/developers').then(response => response.json()).then(data => 
+          fetch('/api/developers').then(response => response.json()).then(data => 
             {
               let prev = this.state.developersInfo;
               const input = event.target.value;
@@ -40,7 +40,7 @@ class Developers extends React.Component {
     fetchAllDevelopers()
     {
       
-        fetch('/developers').then(response => response.json()).then(data => 
+        fetch('/api/developers').then(response => response.json()).then(data => 
             {
               let prev = this.state.developersInfo;
               prev = [];

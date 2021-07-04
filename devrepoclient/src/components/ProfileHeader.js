@@ -28,13 +28,11 @@ class ProfileHeader extends React.Component {
 
       fetchUserDetails()
       {
-        fetch(`/developers/${this.state.developerId}`).then(response => response.json()).then(data => 
+        fetch(`/api/developers/${this.state.developerId}`).then(response => response.json()).then(data => 
             {
                 this.setState(data);
             })
       }
-
-      
 
     render()
     { 
